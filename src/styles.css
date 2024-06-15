@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+button {
+  cursor: pointer;
+  background-color: gray;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: purple;
+}
+
+.ques {
+  display: flex;
+  font-weight: bold;
+  cursor: pointer;
+  justify-content: left;
+  align-self: center;
+  font-size: 20px;
+}
+
+.faq-box {
+  background-color: gray;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+  color: greenyellow;
+}
+
+.arrow {
+  transform: rotate(90deg);
+}
+
+.ques-content {
+  margin-top: 6px;
+}
+
+.ans {
+  margin: 15px 0px 5px 40px;
+}
